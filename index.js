@@ -354,16 +354,7 @@ sort_btn.addEventListener("click", function () {
       bubbleSort(unsorted_array);
       break;
     case "merge":
-      if (
-        confirm(
-          "Merge Sort is not visualized properly. Do you want to continue?"
-        )
-      ) {
-        mergeSort(unsorted_array);
-      } else {
-        break;
-      }
-      //console.log(mergeSort(unsorted_array));
+      mergeSort(unsorted_array);
       break;
     case "heap":
       HeapSort(unsorted_array);
